@@ -1,4 +1,4 @@
-Feature: Navigering mellan vyer
+Feature: U1 - Navigering mellan vyer
   Som en användare vill jag navigera mellan Katalog, Lägg till bok och Mina böcker
   så att jag enkelt hittar rätt funktion.
 

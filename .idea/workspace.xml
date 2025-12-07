@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e03c69-fd81-438b-be4a-f323c3a785ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Examensprojekt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STORIES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/favorites.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/navigation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/steps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/steps/common_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/steps/favorites_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/steps/navigation_steps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/base_page.py" afterDir="false" />
+    <list default="true" id="69e03c69-fd81-438b-be4a-f323c3a785ad" name="Changes" comment="Very late first">
+      <change afterPath="$PROJECT_DIR$/src/features/add_book.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/steps/add_book_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STORIES.md" beforeDir="false" afterPath="$PROJECT_DIR$/STORIES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/favorites.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/favorites.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/navigation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/navigation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/steps/favorites_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/favorites_steps.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LukasE1234"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LukasE1234/Examensprojekt",
+    "accountId": "ccd29c49-9a07-4a0b-853a-e090a3181a0a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -72,6 +76,15 @@
       <option name="presentableId" value="Default" />
       <updated>1765117391032</updated>
     </task>
+    <task id="LOCAL-00001" summary="Very late first">
+      <option name="closed" value="true" />
+      <created>1765136118262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765136118262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Very late first" />
+    <option name="LAST_COMMIT_MESSAGE" value="Very late first" />
   </component>
 </project>

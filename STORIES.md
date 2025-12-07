@@ -16,12 +16,20 @@ U4. Som en användare
 vill jag att favoritknappen fungerar förutsägbart även vid flera klick,  
 så att jag vet om boken är markerad eller inte.
 
-U5. Som en användare  
+U5a. Som en användare  
 vill jag kunna lägga till en ny bok med titel och författare,  
 så att den syns i katalogen.
 
+U5b. Som en användare
+vill jag kunna lägga till en ny bok med titel och författare och favoritmarkera den,
+så att den sparas i "Mina böcker".
+
+U5c. Som en användare
+vill jag kunna ta bort en favoritmarkering från en egentillagd bok
+så att jag kan ändra mig.
+
 U6. Som en användare  
-vill jag inte kunna lägga till en bok utan titel eller författare,  
+vill jag inte kunna lägga till en bok utan titel och/eller författare,  
 så att inte listan får ett tomt inlägg.
 
 U7. Som en användare  
