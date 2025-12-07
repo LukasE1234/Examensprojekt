@@ -28,6 +28,9 @@ Detta projekt innehåller automatiserade tester, byggda med Behave och Playwrigh
 
 # Hur du startar testet
 ```commandline
+pip install pytest-playwright
+playwright install
+pip install behave
 cd src
 behave
 ```
