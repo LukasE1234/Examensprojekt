@@ -2,24 +2,12 @@ Feature: U5-U6 Lägga till ny bok
   Som en användare vill jag kunna lägga till en ny bok med titel och författare
   så att den syns i katalogen och kunna favo.
 
-  Scenario Outline: U5a – Lägg till ny bok med olika indata
+    Scenario: U5a – Lägg till en ny bok
     Given jag öppnar startsidan
     When jag klickar på "add-book"
-    And jag fyller i titel "<title>" och författare "<author>"
+    And jag fyller i titel "Potatisar" och författare "Billy Bullen"
     And jag klickar på "add-submit"
-    Then boken "<title>" ska synas i katalogen
-
-    # Edge cases
-    Examples:
-      | title                                                     | author          |
-      | Testdriven utveckling                                     | Kent Beck       |
-      | ABC                                                         | Öö               |
-      | En väldigt väldigt väldigt lång titel som testar gränserna| FörfattareX     |
-      | !@#$%^&*()_+=                                             | SpecialChar     |
-      | <script>alert("XSS")</script>                             | Hacker          |
-      | "Citat" inom titel                                        | QuoteUser       |
-      | Titel med å ä ö                                           | Nordisk         |
-      | Emoji 😀📚                                               | Emojiförfattare |
+    Then boken "Potatisar" ska synas i katalogen
 
   Scenario: U5b – Lägg till och favoritisera en ny bok
     Given jag öppnar startsidan
@@ -45,14 +33,36 @@ Feature: U5-U6 Lägga till ny bok
     And jag klickar på "favorites"
     Then boken "Refactoring" ska inte längre synas i mina böcker
 
-  Scenario: U6 – Försök lägga till bok utan titel
+  Scenario: U6a – Försök lägga till bok utan titel och författare
+    Given jag öppnar startsidan
+    When jag klickar på "add-book"
+    Then knappen "add-submit" ska vara inaktiv
+
+  Scenario: U6a – Försök lägga till bok utan titel
     Given jag öppnar startsidan
     When jag klickar på "add-book"
     And jag fyller i titel "" och författare "Anonym"
     Then knappen "add-submit" ska vara inaktiv
 
-  Scenario: U6 – Försök lägga till bok utan författare
+  Scenario: U6a – Försök lägga till bok utan författare
     Given jag öppnar startsidan
     When jag klickar på "add-book"
     And jag fyller i titel "Namnlös bok" och författare ""
     Then knappen "add-submit" ska vara inaktiv
+
+  Scenario Outline: U6b – Lägg till ny bok med olika specialtecken
+    Given jag öppnar startsidan
+    When jag klickar på "add-book"
+    And jag fyller i titel "<title>" och författare "<author>"
+    And jag klickar på "add-submit"
+    Then boken "<title>" ska synas i katalogen
+
+    # Edge cases
+    Examples:
+      | title                                                     | author          |
+      | En väldigt väldigt väldigt lång titel som testar gränserna| FörfattareX     |
+      | !@#$%^&*()_+=                                             | SpecialChar     |
+      | <script>alert("XSS")</script>                             | Hacker          |
+      | "Citat" inom titel                                        | QuoteUser       |
+      | Titel med å ä ö                                           | Nordisk         |
+      | Emoji 😀📚                                               | Emojiförfattare |

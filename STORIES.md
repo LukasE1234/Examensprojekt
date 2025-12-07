@@ -28,9 +28,13 @@ U5c. Som en användare
 vill jag kunna ta bort en favoritmarkering från en egentillagd bok
 så att jag kan ändra mig.
 
-U6. Som en användare  
+U6a. Som en användare  
 vill jag inte kunna lägga till en bok utan titel och/eller författare,  
 så att inte listan får ett tomt inlägg.
+
+U6b Som en användare
+vill jag kunna använda emojis och andra specialtecken
+så att jag kan uttrycka mig.
 
 U7. Som en användare  
 vill jag kunna se mina favoritmarkerade och tillagda böcker i vyn Mina böcker,  

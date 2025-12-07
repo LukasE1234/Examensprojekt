@@ -1,6 +1,7 @@
 from behave import when, then
 from playwright.sync_api import expect
 
+
 @when('jag fyller i titel "{title}" och författare "{author}"')
 def step_impl(context, title, author):
     context.page.get_by_test_id("add-input-title").fill(title)
